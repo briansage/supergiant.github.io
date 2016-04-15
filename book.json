@@ -1,0 +1,15 @@
+{
+  "gitbook": "2.x.x",
+  "title": "Supergiant Manual",
+  "description": "The Supergiant User Uanual",
+  "language": "en",
+  "styles": {
+    "website": "docs/styles/book.sass"
+  },
+  "plugins": ["prism", "-highlight", "github", "styles-sass"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/supergiant/supergiant.github.io"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "supergiant-manual",
+  "version": "0.0.1",
+  "homepage": "https://github.com/supergiant/supergiant.github.io",
+  "private": true,
+  "authors": [
+    {
+      "name": "Joseph McCormick",
+      "email": "esmevane@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/supergiant/supergiant.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supergiant/supergiant.github.io.git"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "gitbook install && gitbook build",
+    "serve": "gitbook install && gitbook serve",
+    "release": "cp -r _book/ ./"
+  },
+  "devDependencies": {}
+}
