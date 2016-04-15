@@ -18,9 +18,10 @@
   },
   "dependencies": {},
   "scripts": {
-    "build": "gitbook install && gitbook build",
-    "serve": "gitbook install && gitbook serve",
-    "release": "cp -r _book/ ./"
+    "build": "cd source && gitbook install && gitbook build && cd ..",
+    "serve": "cd source && gitbook install && gitbook serve && cd ..",
+    "release": "npm run build && npm run dist",
+    "dist": "cp -r source/_book/ ./"
   },
   "devDependencies": {}
 }

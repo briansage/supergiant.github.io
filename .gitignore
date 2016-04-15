@@ -3,6 +3,6 @@ _book
 .DS_Store
 .sass-cache/
 /notes/
-/node_modules/
-/tmp/
-/npm-debug.log
+node_modules/
+tmp/
+npm-debug.log
