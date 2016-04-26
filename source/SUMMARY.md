@@ -2,7 +2,6 @@
 
 * [README](/README.md)
 * [Community](/docs/community/index.md)
-  * [Contribution Guidelines](/docs/community/contributing.md)
   * [GitHub Issues](/docs/community/github-issues.md)
   <!-- * [Slack Channel](/docs/community/slack.md) -->
 * [Start Here](/docs/start/index.md)
