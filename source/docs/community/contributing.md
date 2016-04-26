@@ -1,4 +1,4 @@
-# Contributing
+# Contribution Guidelines
 
 Ideally everyone should be comfortable contributing to this repository.  Here are some quick and dirty rules for being a good citizen:
 
@@ -8,7 +8,7 @@ One commit should equal one feature or one removable unit of code.  Okay, this i
 
 ## Blog post commit messages
 
-Commit messages should be no longer than 50 characters.  Put details about the commits into a body below the commit message.  Github (and other Git repo management suites) turns these commit messages into nice interfaces to summarize your work.
+Commit messages should be no longer than 50 characters.  Put details about the commits into a body below the commit message.  GitHub (and other Git repo management suites) turns these commit messages into nice interfaces to summarize your work.
 
 ## Build before any release
 
@@ -26,7 +26,7 @@ Squash feature branches and rebase merge to master.  If you have 30 commits on a
   * Intelligently pick or squash your 30 commits into as few as possible, ideally 1.
   * Name that commit with 50 characters or less, and write a small blog style post about your changes.
   * `git checkout master && git pull && git checkout - && git rebase master`
-  * You are now ready to submit a pull request.  Github will actually turn your blog style commit message into the pull request itself.
+  * You are now ready to submit a pull request.  GitHub will actually turn your blog style commit message into the pull request itself.
 
 ## Dependencies
 
