@@ -7,7 +7,7 @@ Create a Supergiant app cloud on AWS in minutes. Supergiant is open-source and f
 The Supergiant command line interface will automatically install Supergiant on AWS EC2. It can be initiated from your computer’s command line with the following curl command:
 
 ```
-bash <(curl -L http://tinyurl.com/supergiant-quickstart)
+bash <(curl -L https://supergiant.io/installer)
 ```
 
 The command line interface will ask questions as you go. Have ready:
