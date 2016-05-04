@@ -28,7 +28,8 @@
   "scripts": {
     "build": "cd source && gitbook install && gitbook build && cd ..",
     "serve": "cd source && gitbook install && gitbook serve && cd ..",
-    "release": "npm run build && npm run dist",
+    "clean": "ls | grep -e 'website-*' | xargs rm",
+    "release": "npm run clean && npm run build && npm run dist",
     "dist": "cp -r source/_book/ ./"
   },
   "devDependencies": {}
