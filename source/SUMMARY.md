@@ -3,7 +3,6 @@
 * [README](/README.md)
 * [Community](/docs/community/README.md)
   * [GitHub Issues](/docs/community/github-issues.md)
-  <!-- * [Slack Channel](/docs/community/slack.md) -->
 * [Start Here](/docs/start/README.md)
   * [Installation](/docs/start/installation.md)
   * [Getting Started](/docs/start/getting-started.md)
@@ -21,4 +20,5 @@
        * [Container Commands](/docs/cli/applications/containers/commands.md)
     * [Volumes](/docs/cli/applications/volumes.md)
 * [FAQ](/FAQ.md)
+* [Troubleshooting](/troubleshooting.md)
 * [Glossary](/GLOSSARY.md)
