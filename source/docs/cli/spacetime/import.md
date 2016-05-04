@@ -1,6 +1,9 @@
 # Supergiant Spacetime Import Control
 ## `supergiant create spacetime import <flags>`
-*Prerequisite: You must have created a Spacetime Provider with `supergiant create spacetime provider`*
+
+| Prerequisite
+| :---
+| You must have created a Spacetime Provider with `supergiant create spacetime provider`
 
 Import control allows the user to import an already existing Kubernetes cluster into spacetime. This cluster will not be managed by Terraform, but you will be able to deploy the Supergiant core, and manipulate your spacetime instance using the CLI.
 

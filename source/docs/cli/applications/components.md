@@ -1,9 +1,13 @@
 # Supergiant Component Control
+
 ## `supergiant <verb> component`
-*Prerequisite: You must have created a Spacetime Provider with `supergiant create spacetime provider`*
-*Prerequisite: You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`*
-*Prerequisite: You must have installed the Supergiant core with `supergiant create core`*
-*Prerequisite: You must have created a Supergiant app with `supergiant create application`*
+
+| Prerequisites
+| :---
+| You must have created a Spacetime Provider with `supergiant create spacetime provider`
+| You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`
+| You must have installed the Supergiant core with `supergiant create core`
+| You must have created a Supergiant app with `supergiant create application`
 
 The Component action allows the user to create a component for an application on their Supergiant cluster.
 

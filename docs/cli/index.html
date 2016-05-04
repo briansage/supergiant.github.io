@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Installation | Supergiant Manual</title>
+        <title>Supergiant CLI Reference | Supergiant Manual</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -39,10 +39,10 @@
         
     
     
-    <link rel="next" href="../../docs/start/getting-started.html" />
+    <link rel="next" href="../../docs/cli/spacetime/index.html" />
     
     
-    <link rel="prev" href="../../docs/start/index.html" />
+    <link rel="prev" href="../../docs/start/getting-started.html" />
     
 
         
@@ -51,9 +51,9 @@
         
         
     <div class="book"
-        data-level="2.1"
-        data-chapter-title="Installation"
-        data-filepath="docs/start/installation.md"
+        data-level="3"
+        data-chapter-title="Supergiant CLI Reference"
+        data-filepath="docs/cli/README.md"
         data-basepath="../.."
         data-revision="Tue May 03 2016 18:33:08 GMT-0600 (MDT)"
         data-innerlanguage="">
@@ -136,7 +136,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="2.1" data-path="docs/start/installation.html">
+        <li class="chapter " data-level="2.1" data-path="docs/start/installation.html">
             
                 
                     <a href="../../docs/start/installation.html">
@@ -171,7 +171,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3" data-path="docs/cli/index.html">
+        <li class="chapter active" data-level="3" data-path="docs/cli/index.html">
             
                 
                     <a href="../../docs/cli/index.html">
@@ -455,36 +455,30 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="installing-supergiant">Installing <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+                        <h1 id="supergiant-cli-table-of-contents"><a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a></h1>
-<p>Create a <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
-distributed apps. With Supergiant, you can run dockerized apps and manage
-hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a> app cloud on AWS in minutes. <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
-distributed apps. With Supergiant, you can run dockerized apps and manage
-hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a> is open-source and free forever. AWS hardware usage rates apply.</p>
-<h3 id="linux--mac-osx">Linux &amp; Mac OSX</h3>
-<p>The <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
-distributed apps. With Supergiant, you can run dockerized apps and manage
-hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a> command line interface will automatically install <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
-distributed apps. With Supergiant, you can run dockerized apps and manage
-hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a> on AWS EC2. It can be initiated from your computer&#x2019;s command line with the following curl command:</p>
-<pre><code>bash &lt;(curl -L https://supergiant.io/installer)
-</code></pre><p>The command line interface will ask questions as you go. Have ready:</p>
+faster and reduce hardware expenses.">Supergiant</a> CLI Table of Contents</h1>
 <ul>
-<li>An <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">AWS EC2 key pair</a> in a file named kube-admin in US East</li>
-<li>An <a href="http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html" target="_blank">AWS access key and secret key</a> with full administrative access <a href="http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html" target="_blank">(?)</a></li>
-<li>Preferred <a href="../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> username</li>
-<li>Preferred <a href="../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> password</li>
-<li>If you are using OSX, <a href="http://brew.sh/" target="_blank">Homebrew</a> is recommended.</li>
+<li><a href="spacetime/index.html">Spacetime</a><ul>
+<li><a href="spacetime/providers.html">Providers</a></li>
+<li><a href="spacetime/import.html">Import</a></li>
 </ul>
-<h3 id="windows">Windows</h3>
-<p>An easy command line installer is coming. For this release, you may download our experimental binaries from the <a href="latest release on GitHub">latest release on GitHub</a>.</p>
+</li>
+<li><a href="core/index.html">Core</a></li>
+<li><a href="applications/index.html">Applications</a><ul>
+<li><a href="applications/components.html">Components</a></li>
+<li><a href="applications/containers/index.html">Containers</a><ul>
+<li><a href="applications/containers/ports.html">Ports</a></li>
+<li><a href="applications/containers/env.html">Environment Variables</a></li>
+<li><a href="applications/containers/mount.html">Mounts</a></li>
+<li><a href="applications/containers/commands.html">Container Commands</a></li>
+</ul>
+</li>
+<li><a href="applications/volumes.html">Volumes</a></li>
+</ul>
+</li>
+</ul>
 
                     
                     </section>
@@ -495,10 +489,10 @@ faster and reduce hardware expenses.">Supergiant</a> on AWS EC2. It can be initi
         </div>
 
         
-        <a href="../../docs/start/index.html" class="navigation navigation-prev " aria-label="Previous page: Start Here"><i class="fa fa-angle-left"></i></a>
+        <a href="../../docs/start/getting-started.html" class="navigation navigation-prev " aria-label="Previous page: Getting Started"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../../docs/start/getting-started.html" class="navigation navigation-next " aria-label="Next page: Getting Started"><i class="fa fa-angle-right"></i></a>
+        <a href="../../docs/cli/spacetime/index.html" class="navigation navigation-next " aria-label="Next page: Spacetime"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

@@ -1,7 +1,9 @@
 # Supergiant Spacetime Provider Control
 ## `supergiant <verb> spacetime provider <flags>`
 
-*Configuration Directory: ~/.supergiant*
+| Configuration Directory
+| :---
+| ~/.supergiant
 
 The spacetime provider control tool allows the user to define cloud credentials to use while performing supergiant actions. These credentials can be used while creating spacetime clusters `supergiant create spacetime`, importing Kubernetes clusters into the spacetime database `supergiant create spacetime import`, and are consumed by the Supergiant core when deployed to your cluster `supergiant create core`. Spacetime maintains a separate provider database in your spacetime config, because often a user may have or want Kubernetes clusters to reside in multiple Regions, Zones, Accounts, or Clouds using unique credentials.
 

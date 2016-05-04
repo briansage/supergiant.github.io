@@ -1,10 +1,14 @@
 # Supergiant Component Volume Control
+
 ## `supergiant <verb> component volume`
-*Prerequisite: You must have created a Spacetime Provider with `supergiant create spacetime provider`*
-*Prerequisite: You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`*
-*Prerequisite: You must have installed the Supergiant core with `supergiant create core`*
-*Prerequisite: You must have created a Supergiant app with `supergiant create application`*
-*Prerequisite: You must have created a Supergiant Component with `supergiant create component`*
+
+| Prerequisites
+| :---
+| You must have created a Spacetime Provider with `supergiant create spacetime provider`
+| You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`
+| You must have installed the Supergiant core with `supergiant create core`
+| You must have created a Supergiant app with `supergiant create application`
+| You must have created a Supergiant Component with `supergiant create component`
 
 The Volume action allows the user to manage a volume for a Component on their Supergiant cluster.
 

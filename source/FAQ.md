@@ -12,16 +12,16 @@ An app performs a function for your organization. It is made of microservices ca
 ### What is a Supergiant component?
 Components are microservices required by your Apps. In Supergiant, you can use public or private Docker repos to create components, making it easy to use them in the distributed, stable environment of Kubernetes.
 
-### What are Supergiant volumes?
+### What is a Supergiant volume?
 Volumes are persistent data stores for your components.
 
-### How is Supergiant Licensed?
+### How is Supergiant licensed?
 Supergiant is a publicly available repo on GitHub, and has an Apache 2 license.
 
 ### Is there any cost to running Supergiant?
 Nope. Supergiant is open-source and free forever, but, of course, if you provision infrastructure, you will be charged the applicable rate by your infrastructure provider.
 
-### Why Should I use Supergiant?
+### Why should I use Supergiant?
 Supergiant can decrease your infrastructure costs, increase networking performance, and increase stability. See following FAQ’s.
 
 ### How does Supergiant decrease costs?

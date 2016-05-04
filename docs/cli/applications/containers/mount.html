@@ -1,0 +1,655 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Mounts | Supergiant Manual</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../../../../website-1462321988883.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../../../../docs/cli/applications/containers/commands.html" />
+    
+    
+    <link rel="prev" href="../../../../docs/cli/applications/containers/env.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="3.3.2.3"
+        data-chapter-title="Mounts"
+        data-filepath="docs/cli/applications/containers/mount.md"
+        data-basepath="../../../.."
+        data-revision="Tue May 03 2016 18:33:08 GMT-0600 (MDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        README
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/community/index.html">
+            
+                
+                    <a href="../../../../docs/community/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Community
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="docs/community/github-issues.html">
+            
+                
+                    <a href="../../../../docs/community/github-issues.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        GitHub Issues
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/start/index.html">
+            
+                
+                    <a href="../../../../docs/start/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Start Here
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/start/installation.html">
+            
+                
+                    <a href="../../../../docs/start/installation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Installation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/start/getting-started.html">
+            
+                
+                    <a href="../../../../docs/start/getting-started.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Getting Started
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/cli/index.html">
+            
+                
+                    <a href="../../../../docs/cli/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Supergiant CLI Reference
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/cli/spacetime/index.html">
+            
+                
+                    <a href="../../../../docs/cli/spacetime/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Spacetime
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="docs/cli/spacetime/providers.html">
+            
+                
+                    <a href="../../../../docs/cli/spacetime/providers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        Providers
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="docs/cli/spacetime/import.html">
+            
+                
+                    <a href="../../../../docs/cli/spacetime/import.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                        Import
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/cli/core/index.html">
+            
+                
+                    <a href="../../../../docs/cli/core/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Core
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docs/cli/applications/index.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Applications
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="docs/cli/applications/components.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/components.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                        Components
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="docs/cli/applications/containers/index.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/containers/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                        Containers
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.2.1" data-path="docs/cli/applications/containers/ports.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/containers/ports.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.1.</b>
+                        
+                        Ports
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2.2" data-path="docs/cli/applications/containers/env.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/containers/env.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.2.</b>
+                        
+                        Environment Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.3.2.3" data-path="docs/cli/applications/containers/mount.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/containers/mount.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.3.</b>
+                        
+                        Mounts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2.4" data-path="docs/cli/applications/containers/commands.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/containers/commands.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.4.</b>
+                        
+                        Container Commands
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="docs/cli/applications/volumes.html">
+            
+                
+                    <a href="../../../../docs/cli/applications/volumes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.3.</b>
+                        
+                        Volumes
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="FAQ.html">
+            
+                
+                    <a href="../../../../FAQ.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        FAQ
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="GLOSSARY.html">
+            
+                
+                    <a href="../../../../GLOSSARY.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Glossary
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+    <a href="../../../../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../../" >Supergiant Manual</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="supergiant-component-container-mount-control"><a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">Component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">Container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">Mount</a> Control</h1>
+<h2 id="supergiant-verb-component-mount"><code>supergiant <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>verb</span><span class="token punctuation">&gt;</span></span> component mount</code></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Prerequisites</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">You must have created a <a href="../../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
+run. The spacetime controller on it&apos;s own is a useful way to manage multiple
+Kubernetes clusters across multiple environments.">Spacetime</a> <a href="../../../../GLOSSARY.html#provider" class="glossary-term" title="The spacetime provider control tool allows the user to define cloud credentials
+to use while performing supergiant actions. Spacetime maintains a separate
+provider database in your spacetime config, because often a user may have or
+want Kubernetes clusters to reside in multiple Regions, Zones, Accounts, or
+Clouds using unique credentials.">Provider</a> with <code>supergiant create spacetime provider</code></td>
+</tr>
+<tr>
+<td style="text-align:left">You must have created a <a href="../../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
+run. The spacetime controller on it&apos;s own is a useful way to manage multiple
+Kubernetes clusters across multiple environments.">Spacetime</a> <a href="../../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster with <code>supergiant create spacetime</code></td>
+</tr>
+<tr>
+<td style="text-align:left">You must have installed the <a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> <a href="../../../../GLOSSARY.html#core" class="glossary-term" title="Core actions control the install and management of the Supergiant core
+application on your Kubernetes cluster.">core</a> with <code>supergiant create core</code></td>
+</tr>
+<tr>
+<td style="text-align:left">You must have created a <a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> app with <code>supergiant create application</code></td>
+</tr>
+<tr>
+<td style="text-align:left">You must have created a <a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">Component</a> with <code>supergiant create component</code></td>
+</tr>
+<tr>
+<td style="text-align:left">You must have created a <a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">Component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> with <code>supergiant create component container</code></td>
+</tr>
+</tbody>
+</table>
+<p>The <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> action allows the user to manage <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> mounts for a <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a>.</p>
+<h3 id="create-component-container-mount-command">Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> command:</h3>
+<h4 id="supergiant-create-component-mount-flags"><code>supergiant create component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<p>Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> will add a new <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> to your <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a>.</p>
+<p>Help: <code>supergiant create component mount --help</code></p>
+<p>Flags:</p>
+<p><em>Required</em></p>
+<p><code>--comp <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">Component</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> the new <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> will be configured for.</p>
+<p><code>--app <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#application" class="glossary-term" title="An Application is a domain space for an organized group of Components that
+should be designed to serve a purpose for your organization.">Application</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The <a href="../../../../GLOSSARY.html#application" class="glossary-term" title="An Application is a domain space for an organized group of Components that
+should be designed to serve a purpose for your organization.">Application</a> where your <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> lives.</p>
+<p><code>--name <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">Volume</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> where the command will get assigned.</p>
+<p><code>--path <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">Mount</a></span> <span class="token attr-name">Path</span><span class="token punctuation">&gt;</span></span></code> - The path where a <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">volume</a> will be mounted inside your <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a>.</p>
+<p><code>--volume <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">Volume</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">volume</a> to be used with this <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> point.</p>
+<h3 id="update-component-container-mount">Update <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a>:</h3>
+<h4 id="supergiant-update-component-mount-flags"><code>supergiant update component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<p>Update <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> updates an existing <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> with a new configuration.</p>
+<p>Help: <code>supergiant update component mount --help</code></p>
+<p>Flags:</p>
+<p><em>Required</em></p>
+<p><code>--comp <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">Component</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> the new <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> will be configured for.</p>
+<p><code>--app <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#application" class="glossary-term" title="An Application is a domain space for an organized group of Components that
+should be designed to serve a purpose for your organization.">Application</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The <a href="../../../../GLOSSARY.html#application" class="glossary-term" title="An Application is a domain space for an organized group of Components that
+should be designed to serve a purpose for your organization.">Application</a> where your <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> lives.</p>
+<p><code>--name <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">Volume</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> where the command will get assigned.</p>
+<p><code>--path <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">Mount</a></span> <span class="token attr-name">Path</span><span class="token punctuation">&gt;</span></span></code> - The path where a <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">volume</a> will be mounted inside your <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a>.</p>
+<p><code>--volume <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">Volume</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">volume</a> to be used with this <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> point.</p>
+<h3 id="delete-component-container-mount">Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a>:</h3>
+<h4 id="supergiant-delete-component-mount-flags"><code>supergiant delete component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<p>Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> will delete a <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> point in a <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a>.</p>
+<p>Help: <code>supergiant delete component mount --help</code></p>
+<p>Flags:</p>
+<p><em>Required</em></p>
+<p><code>--comp <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">Component</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> the new <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> will be configured for.</p>
+<p><code>--app <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#application" class="glossary-term" title="An Application is a domain space for an organized group of Components that
+should be designed to serve a purpose for your organization.">Application</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The <a href="../../../../GLOSSARY.html#application" class="glossary-term" title="An Application is a domain space for an organized group of Components that
+should be designed to serve a purpose for your organization.">Application</a> where your <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a> lives.</p>
+<p><code>--name <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">Container</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a> where the command will get assigned.</p>
+<p><code>--path <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">Mount</a></span> <span class="token attr-name">Path</span><span class="token punctuation">&gt;</span></span></code> - The path where a <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">volume</a> will be mounted inside your <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
+environment variables. A Component requires at least one Container to run.">container</a>.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../../docs/cli/applications/containers/env.html" class="navigation navigation-prev " aria-label="Previous page: Environment Variables"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../../docs/cli/applications/containers/commands.html" class="navigation navigation-next " aria-label="Next page: Container Commands"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"prism":{},"styles-sass":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

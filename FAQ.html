@@ -5,9 +5,9 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>README | Supergiant Manual</title>
+        <title>FAQ | Supergiant Manual</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="The Supergiant User Uanual">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
         
         
@@ -39,8 +39,10 @@
         
     
     
-    <link rel="next" href="./docs/community/index.html" />
+    <link rel="next" href="./GLOSSARY.html" />
     
+    
+    <link rel="prev" href="./docs/cli/applications/volumes.html" />
     
 
         
@@ -49,9 +51,9 @@
         
         
     <div class="book"
-        data-level="0"
-        data-chapter-title="README"
-        data-filepath="README.md"
+        data-level="4"
+        data-chapter-title="FAQ"
+        data-filepath="FAQ.md"
         data-basepath="."
         data-revision="Tue May 03 2016 18:33:08 GMT-0600 (MDT)"
         data-innerlanguage="">
@@ -69,7 +71,7 @@
 
             
     
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -388,7 +390,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4" data-path="FAQ.html">
+        <li class="chapter active" data-level="4" data-path="FAQ.html">
             
                 
                     <a href="./FAQ.html">
@@ -453,22 +455,104 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="supergiant"><a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+                        <h1 id="supergiant-frequently-asked-questions"><a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a></h1>
-<h2 id="the-first-datacenter-total-control-system-that-makes-it-easy-to-manage-stateful-distributed-apps">The first datacenter total control system that makes it easy to manage stateful, distributed apps.</h2>
-<p>Run dockerized apps and manage hardware like one giant, efficient computer. <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+faster and reduce hardware expenses.">Supergiant</a> Frequently Asked Questions</h1>
+<h3 id="what-is-supergiant">What is <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a> makes it easy to deploy faster and reduce hardware expenses.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YORNBfoC3-I" frameborder="0" allowfullscreen></iframe>
-
-
-<h2 id="about-this-documentation">About This Documentation</h2>
-<p>This documentation is a work in progress, and we&apos;ve only just begun.</p>
-<h2 id="contributing">Contributing</h2>
-<p>If you would like to contribute, we would be very grateful. Please see our <a href="docs/contributing.md">contribution guidelines</a>, and then make a pull request.</p>
+faster and reduce hardware expenses.">Supergiant</a>?</h3>
+<p><a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> is a data center management system that is built on <a href="GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a>. It&#x2019;s purpose is to help make managing stateful apps in a containerized environment easier and more performant.</p>
+<h3 id="why-should-i-use-supergiant-instead-of-kubernetes">Why should I use <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> instead of <a href="GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a>?</h3>
+<p>We support all uses of <a href="GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a>, as it is an awesome platform. We wanted to make it easier to use by making stateful, distributed apps easier to manage out of the box. Of course, if you want to reach your <a href="GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster within <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a>, you can.</p>
+<h3 id="what-is-a-supergiant-app">What is a <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> app?</h3>
+<p>An app performs a function for your organization. It is made of microservices called Components. You can have multiple Apps in your <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> cloud, and each app can have multiple Components.</p>
+<h3 id="what-is-a-supergiant-component">What is a <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> <a href="GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+Application can be made up of many Components.">component</a>?</h3>
+<p>Components are microservices required by your Apps. In <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a>, you can use public or private <a href="GLOSSARY.html#docker" class="glossary-term" title="...">Docker</a> repos to create components, making it easy to use them in the distributed, stable environment of <a href="GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a>.</p>
+<h3 id="what-is-a-supergiant-volume">What is a <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> <a href="GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
+traditional disk drive. It is where data is stored.">volume</a>?</h3>
+<p>Volumes are persistent data stores for your components.</p>
+<h3 id="how-is-supergiant-licensed">How is <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> licensed?</h3>
+<p><a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> is a publicly available repo on GitHub, and has an Apache 2 license.</p>
+<h3 id="is-there-any-cost-to-running-supergiant">Is there any cost to running <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a>?</h3>
+<p>Nope. <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> is open-source and free forever, but, of course, if you provision infrastructure, you will be charged the applicable rate by your infrastructure <a href="GLOSSARY.html#provider" class="glossary-term" title="The spacetime provider control tool allows the user to define cloud credentials
+to use while performing supergiant actions. Spacetime maintains a separate
+provider database in your spacetime config, because often a user may have or
+want Kubernetes clusters to reside in multiple Regions, Zones, Accounts, or
+Clouds using unique credentials.">provider</a>.</p>
+<h3 id="why-should-i-use-supergiant">Why should I use <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a>?</h3>
+<p><a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> can decrease your infrastructure costs, increase networking performance, and increase stability. See following FAQ&#x2019;s.</p>
+<h3 id="how-does-supergiant-decrease-costs">How does <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> decrease costs?</h3>
+<p>First, <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> can dramatically optimize the CPU utilization of your AWS infrastructure. The <a href="GLOSSARY.html#packing_algorithm" class="glossary-term" title="...">packing algorithm</a> can distribute compute resources where needed, giving you needed burstability without requiring additional VM&#x2019;s. Second, because of the first, your infrastructure needs can be much more predictable, giving you the ability to leverage Reserved Instance and other forward contracts, which can reduce your infrastructure costs by up to 60%.</p>
+<h3 id="how-does-supergiant-increase-networking-performance">How does <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> increase networking performance?</h3>
+<p>The networking bandwidth assigned to AWS&#x2019; smaller and cheaper instances can hamper performance. With <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a>, by putting a large number of small containers on larger instances, your instances can have the networking performance of the larger instances.</p>
+<h3 id="how-does-supergiant-increase-stability">How does <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> increase stability?</h3>
+<p><a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> is developed by the Qbox DevOps team to host distributed apps at a global scale. We built it on top of <a href="GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a>, an automated deployment and ops platform developed by Google. <a href="GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> distributes resources across multiple servers to the Apps that need them, and if hardware fails, it automatically restores what is missing, making scalable, reliable <a href="GLOSSARY.html#deployments" class="glossary-term" title="...">deployments</a> easy and accessible to developers.</p>
 
                     
                     </section>
@@ -479,8 +563,10 @@ faster and reduce hardware expenses.">Supergiant</a> makes it easy to deploy fas
         </div>
 
         
+        <a href="./docs/cli/applications/volumes.html" class="navigation navigation-prev " aria-label="Previous page: Volumes"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./docs/community/index.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Community"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="./GLOSSARY.html" class="navigation navigation-next " aria-label="Next page: Glossary"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

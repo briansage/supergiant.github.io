@@ -1,7 +1,10 @@
 # Supergiant Core Control
 ## `supergiant <verb> core`
-*Prerequisite: You must have created a Spacetime Provider with `supergiant create spacetime provider`*
-*Prerequisite: You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`*
+
+| Prerequisites
+| :---
+| You must have created a Spacetime Provider with `supergiant create spacetime provider`
+| You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`
 
 Core actions control the install and management of the Supergiant core application on your Kubernetes cluster.
 
@@ -21,7 +24,7 @@ Flags:
 ### Update core:
 #### `supergiant update core <flags>`
 
-Update core will rebuild your supergiant installation without touching the it's database. This can be useful for updating to newer versions of the core.  
+Update core will rebuild your supergiant installation without touching the it's database. This can be useful for updating to newer versions of the core.
 
 Help: `supergiant update core help`
 
@@ -36,7 +39,7 @@ Flags:
 ### Delete core:
 #### `supergiant delete core <flags>`
 
-Why would you want to do that?  
+Why would you want to do that?
 
 Help: `supergiant delete core help`
 

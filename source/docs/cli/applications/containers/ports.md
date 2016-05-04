@@ -1,16 +1,15 @@
 # Supergiant Component Container Port Control
+
 ## `supergiant <verb> component port`
-*Prerequisite: You must have created a Spacetime Provider with `supergiant create spacetime provider`*
 
-*Prerequisite: You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`*
-
-*Prerequisite: You must have installed the Supergiant core with `supergiant create core`*
-
-*Prerequisite: You must have created a Supergiant app with `supergiant create application`*
-
-*Prerequisite: You must have created a Supergiant Component with `supergiant create component`*
-
-*Prerequisite: You must have created a Supergiant Component container with `supergiant create component container`*
+| Prerequisites
+| :---
+| You must have created a Spacetime Provider with `supergiant create spacetime provider`
+| You must have created a Spacetime Kubernetes cluster with `supergiant create spacetime`
+| You must have installed the Supergiant core with `supergiant create core`
+| You must have created a Supergiant app with `supergiant create application`
+| You must have created a Supergiant Component with `supergiant create component`
+| You must have created a Supergiant Component container with `supergiant create component container`
 
 The container port action allows the user to manage container ports for a component container.
 
@@ -41,7 +40,7 @@ Flags:
 
 `--entrypoint <Entry Point Name>` - The name of the [entry point]() to use for your port.
 
-`--external-port-number <Port Number>` - The external facing port number of your public port. NOTE: If you use this feature, you must manage your ports as to not conflict with any other manually set external ports. By default Supergiant will use the randomly generated external port provided by Kubernetes as your external port number.  
+`--external-port-number <Port Number>` - The external facing port number of your public port. NOTE: If you use this feature, you must manage your ports as to not conflict with any other manually set external ports. By default Supergiant will use the randomly generated external port provided by Kubernetes as your external port number.
 
 
 ### Update component container port:
@@ -71,7 +70,7 @@ Flags:
 
 `--entrypoint <Entry Point Name>` - The name of the [entry point]() to use for your port.
 
-`--external-port-number <Port Number>` - The external facing port number of your public port. NOTE: If you use this feature, you must manage your ports as to not conflict with any other manually set external ports. By default Supergiant will use the randomly generated external port provided by Kubernetes as your external port number.  
+`--external-port-number <Port Number>` - The external facing port number of your public port. NOTE: If you use this feature, you must manage your ports as to not conflict with any other manually set external ports. By default Supergiant will use the randomly generated external port provided by Kubernetes as your external port number.
 
 
 
@@ -92,4 +91,4 @@ Flags:
 
 `--name <Container Name>` - The name of the container where the command will get assigned.
 
-`--port-number <Port Number>` - The internal port number of the port you would like to delete. 
+`--port-number <Port Number>` - The internal port number of the port you would like to delete.

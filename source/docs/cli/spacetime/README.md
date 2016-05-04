@@ -1,8 +1,16 @@
-# Supergiant Spacetime Control
-## `supergiant <verb> spacetime`
-*Prerequisite: You must have created a Spacetime Provider with `supergiant create spacetime provider`*
+[Spacetime]: /docs/cli/spacetime/spacetime.md  "Supergiant Spacetime Control"
 
-*Configuration Directory: ~/.supergiant*
+# Supergiant Spacetime Control
+
+## `supergiant <verb> spacetime`
+
+| Prerequisites
+| :---
+| You must have created a Spacetime Provider with `supergiant create spacetime provider`
+
+| Configuration Directory
+| :---
+| ~/.supergiant
 
 Spacetime actions control Kubernetes clusters on which your supergiant core will run. The spacetime controller on it's own is a useful way to manage multiple Kubernetes clusters across multiple environments.
 
@@ -42,7 +50,7 @@ Please enter Kube UserName: myuser
 Please enter Kube Password: mypassword
 template_file.master_user_data: Creating...
   rendered:               "" => "<computed>"
-  (Terraform output)....  
+  (Terraform output)....
 ```
 Cluster Verification: Once spacetime can see that the cluster has been launched, it will start polling the Kubernetes API to verify that everything is working correctly. The verification usually takes around 5 minutes to complete. The verification utility will timeout after ~15 minutes, marking your cluster as failed and assuming verification did not pass.
 ```
@@ -112,7 +120,7 @@ aws_vpc.kube_cluster: Refreshing state... (ID: xxxxxx)
 aws_internet_gateway.default: Refreshing state... (ID: xxxxxxx)
 aws_subnet.public: Refreshing state... (ID: xxxxxxx)
 aws_security_group.kubernetes_sg: Refreshing state... (ID: xxxxxxx)
-(Terraform output)....  
+(Terraform output)....
 ```
 Success:
 ```
