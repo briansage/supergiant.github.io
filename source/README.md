@@ -1,16 +1,33 @@
+[Contrib Guide]: ./docs/community/contribution-guidelines.md "Supergiant Community Contribution Guidelines"
+[Community]: ./docs/community/ "The Supergiant Community"
+
 # Supergiant
 
-## The first datacenter total control system that makes it easy to manage stateful, distributed apps.
+**The first datacenter total control system that makes it easy to manage stateful, distributed apps.**
+
 
 Run dockerized apps and manage hardware like one giant, efficient computer. Supergiant makes it easy to deploy faster and reduce hardware expenses.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YORNBfoC3-I" frameborder="0" allowfullscreen></iframe>
+<iframe
+  src="https://www.youtube.com/embed/YORNBfoC3-I"
+  allowfullscreen
+  frameborder="0"
+  width="100%"
+  height="315"
+  >
+
+  **Watch the Supergiant Introduction video to learn more.**
+
+</iframe>
 
 
 ## About This Documentation
 
-This documentation is a work in progress, and we've only just begun.
+This documentation is a central repository for any Supergiant-related documentation.
 
-## Contributing
+* The Community section is
 
-If you would like to contribute, we would be very grateful. Please see our [contribution guidelines](./docs/contributing.md), and then make a pull request.
+
+## Contribute to Supergiant
+
+If you would like to contribute, we would be very grateful. Please get familiar with our [Community][Community] and our [Contribution Guidelines][Contrib Guide].

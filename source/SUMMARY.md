@@ -2,7 +2,9 @@
 
 * [README](/README.md)
 * [Community](/docs/community/README.md)
-  * [GitHub Issues](/docs/community/github-issues.md)
+  * [Contribution Guidelines](/docs/community/contribution-guidelines.md)
+  * [Code of Conduct](/docs/community/code-of-conduct.md)
+  * [GitHub Issues Guidelines](/docs/community/github-issues-guidelines.md)
 * [Start Here](/docs/start/README.md)
   * [Installation](/docs/start/installation.md)
   * [Getting Started](/docs/start/getting-started.md)

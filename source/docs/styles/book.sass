@@ -51,11 +51,14 @@
               top: 0
               transform: scaleX(0.67)
 
-          a
+          > a
             border-right: 1px solid rgba(0,0,0,0.07)
 
-            b
-          > a
+          > span
+            border-right: 1px solid rgba(0,0,0,0.23)
+
+          > a,
+          > span
             > b
               display: none
 
@@ -94,3 +97,41 @@
                   border-bottom-style: solid
                   color: #4183c4;
                   text-decoration: none
+
+
+/* Themes */
+.book
+  &.color-theme-1
+    .book-summary
+      border-right: none
+      
+      nav
+        ul.summary
+          &::before
+            background-color: #111
+            content: ""
+
+          li.chapter
+
+            &.active
+              &::after
+                color: #F3EACB
+                content: "\25C0"
+                text-shadow : -2px 0 0 rgba(0,0,0,0.12)
+.book
+  &.color-theme-2
+    .book-summary
+
+      nav
+        ul.summary
+          &::before
+            background-color: #1c1f2b
+            content: ""
+
+          li.chapter
+
+            &.active
+              &::after
+                color: #1c1f2b
+                content: "\25C0"
+                text-shadow : -2px 0 0 rgba(0,0,0,0.12)

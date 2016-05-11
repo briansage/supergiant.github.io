@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Supergiant CLI Reference | Supergiant Manual</title>
+        <title>GitHub Issues Guidelines | Supergiant Manual</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -39,10 +39,10 @@
         
     
     
-    <link rel="next" href="../../docs/cli/spacetime/index.html" />
+    <link rel="next" href="../../docs/start/index.html" />
     
     
-    <link rel="prev" href="../../docs/start/getting-started.html" />
+    <link rel="prev" href="../../docs/community/code-of-conduct.html" />
     
 
         
@@ -51,9 +51,9 @@
         
         
     <div class="book"
-        data-level="3"
-        data-chapter-title="Supergiant CLI Reference"
-        data-filepath="docs/cli/README.md"
+        data-level="1.3"
+        data-chapter-title="GitHub Issues Guidelines"
+        data-filepath="docs/community/github-issues-guidelines.md"
         data-basepath="../.."
         data-revision="Fri May 13 2016 14:12:45 GMT-0600 (MDT)"
         data-innerlanguage="">
@@ -130,7 +130,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="docs/community/github-issues-guidelines.html">
+        <li class="chapter active" data-level="1.3" data-path="docs/community/github-issues-guidelines.html">
             
                 
                     <a href="../../docs/community/github-issues-guidelines.html">
@@ -201,7 +201,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3" data-path="docs/cli/index.html">
+        <li class="chapter " data-level="3" data-path="docs/cli/index.html">
             
                 
                     <a href="../../docs/cli/index.html">
@@ -500,30 +500,33 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="supergiant-cli-table-of-contents"><a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+                        <h1 id="github-issues-guidelines">GitHub Issues Guidelines</h1>
+<p>If you see something that needs to be improved, please open a GitHub Issue on the library&apos;s issues page.</p>
+<h2 id="when-you-find-a-problem">When You Find a Problem</h2>
+<p> Always perform a quick search though <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.">Supergiant</a> CLI Table of Contents</h1>
+faster and reduce hardware expenses.">Supergiant</a> issues to see whether someone else has found the same problem and has already created one. <a href="../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+distributed apps. With Supergiant, you can run dockerized apps and manage
+hardware like one giant, efficient computer. Supergiant makes it easy to deploy
+faster and reduce hardware expenses.">Supergiant</a> is made of a few major components, so it&apos;s good to know where to look</p>
 <ul>
-<li><a href="spacetime/index.html">Spacetime</a><ul>
-<li><a href="spacetime/providers.html">Providers</a></li>
-<li><a href="spacetime/import.html">Import</a></li>
+<li>Search <a href="(https:/github.com/supergiant/supergiant/issues)" title="Supergiant Issues on GitHub">Supergiant Issues</a> for problems affecting the API</li>
+<li>Search <a href="(https:/github.com/supergiant/supergiant-cli/issues)" title="Supergiant Command Line Interface Issues on GitHub">Supergiant CLI Issues</a> for problems affecting the Command Line Interface</li>
+<li>Search <a href="(https:/github.com/supergiant/supergiant-dashboard/issues)" title="Supergiant Dashboard Issues on GitHub">Supergiant Dashboard Issues</a> for problems affecting the web browser-accessible <a href="../../GLOSSARY.html#dashboard" class="glossary-term" title="...">Dashboard</a></li>
+<li>Search <a href="(https:/github.com/supergiant/supergiant-installer/issues)" title="Supergiant Installer Issues on GitHub">Supergiant Installer Issues</a> for problems encountered while running the command line Installer</li>
+<li>Search <a href="(https:/github.com/supergiant/supergiant.github.io/issues)" title="Supergiant Documentation Issues on GitHub">Supergiant Documentation Issues</a> for problems encountered while running the command line Installer</li>
 </ul>
+<p>If you find someone else talking about the problem, engage! Give the conversation a thumbs-up, and if there are any details missing, please add them. If nobody else is talking about the problem, congratulations! You&apos;re in undiscovered territory, and it time to create a new issue for the community.</p>
+<h2 id="how-to-create-a-new-issue">How to Create a New Issue</h2>
+<ul>
+<li><p><strong>Record it.</strong> Then attach a quick GIF of the recording to your Issue. You don&apos;t have to, but in most cases it really helps if we can see  how you arrived at the bug event.</p>
 </li>
-<li><a href="core/index.html">Core</a></li>
-<li><a href="applications/index.html">Applications</a><ul>
-<li><a href="applications/components.html">Components</a></li>
-<li><a href="applications/containers/index.html">Containers</a><ul>
-<li><a href="applications/containers/ports.html">Ports</a></li>
-<li><a href="applications/containers/env.html">Environment Variables</a></li>
-<li><a href="applications/containers/mount.html">Mounts</a></li>
-<li><a href="applications/containers/commands.html">Container Commands</a></li>
-</ul>
-</li>
-<li><a href="applications/volumes.html">Volumes</a></li>
-</ul>
+<li><p><strong>Explain it.</strong> Remember that we&apos;re human, we take pride in our work, we want to fix our things when they go wrong. Write a good description that helps us out by making sure it contains: 1. the bugged behavior, and 2. the expected behavior. <a href="(https:/github.com/supergiant/supergiant-dashboard/issues/94)" title="When a release is created users should remain on the Releases view">Issue #94</a> is a pretty good example of how to do this.</p>
 </li>
 </ul>
+<p>The <a href="../../GLOSSARY.html#core" class="glossary-term" title="Core actions control the install and management of the Supergiant core
+application on your Kubernetes cluster.">core</a> team will engage in the discussion and will prioritize what we can do to fix the problem.</p>
 
                     
                     </section>
@@ -534,10 +537,10 @@ faster and reduce hardware expenses.">Supergiant</a> CLI Table of Contents</h1>
         </div>
 
         
-        <a href="../../docs/start/getting-started.html" class="navigation navigation-prev " aria-label="Previous page: Getting Started"><i class="fa fa-angle-left"></i></a>
+        <a href="../../docs/community/code-of-conduct.html" class="navigation navigation-prev " aria-label="Previous page: Code of Conduct"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../../docs/cli/spacetime/index.html" class="navigation navigation-next " aria-label="Next page: Spacetime"><i class="fa fa-angle-right"></i></a>
+        <a href="../../docs/start/index.html" class="navigation navigation-next " aria-label="Next page: Start Here"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

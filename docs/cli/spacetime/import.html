@@ -33,7 +33,7 @@
         
     
     
-        <link rel="stylesheet" href="../../../website-1462997142627.css">
+        <link rel="stylesheet" href="../../../website-1463170365231.css">
     
 
         
@@ -55,7 +55,7 @@
         data-chapter-title="Import"
         data-filepath="docs/cli/spacetime/import.md"
         data-basepath="../../.."
-        data-revision="Wed May 11 2016 14:05:42 GMT-0600 (MDT)"
+        data-revision="Fri May 13 2016 14:12:45 GMT-0600 (MDT)"
         data-innerlanguage="">
     
 
@@ -100,16 +100,46 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1" data-path="docs/community/github-issues.html">
+        <li class="chapter " data-level="1.1" data-path="docs/community/contribution-guidelines.html">
             
                 
-                    <a href="../../../docs/community/github-issues.html">
+                    <a href="../../../docs/community/contribution-guidelines.html">
                 
                         <i class="fa fa-check"></i>
                         
                             <b>1.1.</b>
                         
-                        GitHub Issues
+                        Contribution Guidelines
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="docs/community/code-of-conduct.html">
+            
+                
+                    <a href="../../../docs/community/code-of-conduct.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Code of Conduct
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="docs/community/github-issues-guidelines.html">
+            
+                
+                    <a href="../../../docs/community/github-issues-guidelines.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        GitHub Issues Guidelines
                     </a>
             
             
@@ -495,7 +525,7 @@ Clouds using unique credentials.">Provider</a> with <code>supergiant create spac
 </tr>
 </tbody>
 </table>
-<p>Import control allows the user to import an already existing <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster into <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
+<p>Import control allows the user to import an already existing <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster into <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">spacetime</a>. This cluster will not be managed by Terraform, but you will be able to deploy the <a href="../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
@@ -511,13 +541,13 @@ Kubernetes clusters across multiple environments.">spacetime</a>:</h3>
 <p>Help: <code>supergiant create spacetime import --help</code></p>
 <p>Flags:</p>
 <p><em>required:</em></p>
-<p><code>--ip <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>IP</span> <span class="token attr-name">Address</span><span class="token punctuation">&gt;</span></span></code> - The IP address for the API/Master of your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster.</p>
-<p><code>--user <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>User</span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The user name credential for your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster.</p>
-<p><code>--pass <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Password</span><span class="token punctuation">&gt;</span></span></code> - The password credential for your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster.</p>
+<p><code>--ip <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>IP</span> <span class="token attr-name">Address</span><span class="token punctuation">&gt;</span></span></code> - The IP address for the API/Master of your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster.</p>
+<p><code>--user <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>User</span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The user name credential for your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster.</p>
+<p><code>--pass <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Password</span><span class="token punctuation">&gt;</span></span></code> - The password credential for your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster.</p>
 <p><code>--name <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Cluster</span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name you would like to assign your imported cluster. This can be anything you like. This just needs to be unique.</p>
-<p><code>--region <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Region</span><span class="token punctuation">&gt;</span></span></code> - The Region your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster is located. Used by the <a href="../../../GLOSSARY.html#core" class="glossary-term" title="Core actions control the install and management of the Supergiant core
+<p><code>--region <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Region</span><span class="token punctuation">&gt;</span></span></code> - The Region your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster is located. Used by the <a href="../../../GLOSSARY.html#core" class="glossary-term" title="Core actions control the install and management of the Supergiant core
 application on your Kubernetes cluster.">core</a>.</p>
-<p><code>--az <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Availability</span> <span class="token attr-name">Zone</span><span class="token punctuation">&gt;</span></span></code> - The Availability Zone where your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster is located. Used by the <a href="../../../GLOSSARY.html#core" class="glossary-term" title="Core actions control the install and management of the Supergiant core
+<p><code>--az <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Availability</span> <span class="token attr-name">Zone</span><span class="token punctuation">&gt;</span></span></code> - The Availability Zone where your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster is located. Used by the <a href="../../../GLOSSARY.html#core" class="glossary-term" title="Core actions control the install and management of the Supergiant core
 application on your Kubernetes cluster.">core</a>.</p>
 <p><code>--provider <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../GLOSSARY.html#provider" class="glossary-term" title="The spacetime provider control tool allows the user to define cloud credentials
 to use while performing supergiant actions. Spacetime maintains a separate
@@ -527,11 +557,11 @@ Clouds using unique credentials.">Provider</a></span> <span class="token attr-na
 to use while performing supergiant actions. Spacetime maintains a separate
 provider database in your spacetime config, because often a user may have or
 want Kubernetes clusters to reside in multiple Regions, Zones, Accounts, or
-Clouds using unique credentials.">provider</a> name you would like to use with your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster.</p>
+Clouds using unique credentials.">provider</a> name you would like to use with your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster.</p>
 <h3 id="import-spacetime-delete">Import <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">spacetime</a> (Delete):</h3>
-<p>You can delete a imported <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="...">Kubernetes</a> cluster with <code>supergiant delete spacetime</code> Your imported cluster will simply get removed from the local <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
+<p>You can delete a imported <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster with <code>supergiant delete spacetime</code> Your imported cluster will simply get removed from the local <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">spacetime</a> database because it is &quot;Not Managed&quot; by <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
