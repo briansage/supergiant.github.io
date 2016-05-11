@@ -53,7 +53,8 @@ variables for a component container.
 
 ## Kubernetes
 
-...
+From kubernetes.io: "Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery."
+
 
 ## Mount
 
