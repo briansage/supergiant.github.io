@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Doppio One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Doppio One Regular"), local("DoppioOne-Regular"), url(/docs/fonts/doppio-one.woff) format("woff"); }
+
+.book.font-family-1 h1,
+.book.font-family-1 h2,
+.book.font-family-1 h3,
+.book.font-family-1 h4,
+.book.font-family-1 h5,
+.book.font-family-1 h6 {
+  font-family: 'Doppio One', sans-serif; }
+
+.book .book-header {
+  font-family: 'Doppio One', sans-serif; }
+
+.book .book-summary {
+  border-right: none; }
+  .book .book-summary nav ul.summary::before {
+    background-image: url(/docs/img/logo_white_bg.svg);
+    background-position: 50% 24px;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-color: #fff;
+    content: "";
+    display: block;
+    min-height: 100px; }
+  .book .book-summary nav ul.summary li.chapter {
+    position: relative; }
+    .book .book-summary nav ul.summary li.chapter.active::after {
+      color: #fff;
+      content: "\25C0";
+      display: block;
+      font-size: 36px;
+      line-height: 36px;
+      position: absolute;
+      right: -12px;
+      text-align: right;
+      text-shadow: -2px 0 0 #e8e8e8;
+      top: 0;
+      transform: scaleX(0.67); }
+    .book .book-summary nav ul.summary li.chapter a {
+      border-right: 1px solid rgba(0, 0, 0, 0.07); }
+    .book .book-summary nav ul.summary li.chapter > a > b {
+      display: none; }
+  .book .book-summary nav ul.summary li.divider {
+    margin: 0; }
+  .book .book-summary nav ul.summary a.gitbook-link {
+    background: rgba(0, 0, 0, 0.07);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.07) inset;
+    font-size: 12px;
+    opacity: .67;
+    padding: 2em 16px; }
+  .book .book-summary nav > ul.summary > li.chapter {
+    border-top: 1px solid rgba(0, 0, 0, 0.07); }
+    .book .book-summary nav > ul.summary > li.chapter > a {
+      font-family: 'Doppio One', sans-serif;
+      font-weight: bold;
+      opacity: 0.8;
+      text-transform: uppercase; }
+
+.book .book-body .page-wrapper .page-inner section.normal a.glossary-term {
+  border-bottom: 0.08em dotted #4183c4;
+  color: inherit;
+  text-decoration: none; }
+  .book .book-body .page-wrapper .page-inner section.normal a.glossary-term:hover {
+    border-bottom-style: solid;
+    color: #4183c4;
+    text-decoration: none; }
