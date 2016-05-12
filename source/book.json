@@ -6,10 +6,20 @@
   "styles": {
     "website": "docs/styles/book.sass"
   },
-  "plugins": ["prism", "-highlight", "github", "styles-sass"],
+  "plugins": [
+    "prism",
+    "-highlight",
+    "github",
+    "styles-sass",
+    "anchors",
+    "disqus"
+  ],
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/supergiant/supergiant.github.io"
+    },
+    "disqus": {
+      "shortName": "supergiant"
     }
   }
 }

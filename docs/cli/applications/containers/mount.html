@@ -25,6 +25,14 @@
         
     
         
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
         <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-search/search.css">
         
     
@@ -33,7 +41,7 @@
         
     
     
-        <link rel="stylesheet" href="../../../../website-1463170365231.css">
+        <link rel="stylesheet" href="../../../../website-1463183186079.css">
     
 
         
@@ -55,7 +63,7 @@
         data-chapter-title="Mounts"
         data-filepath="docs/cli/applications/containers/mount.md"
         data-basepath="../../../.."
-        data-revision="Fri May 13 2016 14:12:45 GMT-0600 (MDT)"
+        data-revision="Fri May 13 2016 17:46:26 GMT-0600 (MDT)"
         data-innerlanguage="">
     
 
@@ -500,13 +508,13 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="supergiant-component-container-mount-control"><a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+                        <h1 id="supergiant-component-container-mount-control"><a name="supergiant-component-container-mount-control" class="plugin-anchor" href="#supergiant-component-container-mount-control"><span class="fa fa-link"></span></a><a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
 faster and reduce hardware expenses.">Supergiant</a> <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">Component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">Container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">Mount</a> Control</h1>
-<h2 id="supergiant-verb-component-mount"><code>supergiant <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>verb</span><span class="token punctuation">&gt;</span></span> component mount</code></h2>
+<h2 id="supergiant-verb-component-mount"><a name="supergiant-verb-component-mount" class="plugin-anchor" href="#supergiant-verb-component-mount"><span class="fa fa-link"></span></a><code>supergiant <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>verb</span><span class="token punctuation">&gt;</span></span> component mount</code></h2>
 <table>
 <thead>
 <tr>
@@ -563,10 +571,10 @@ environment variables. A Component requires at least one Container to run.">cont
 environment variables. A Component requires at least one Container to run.">container</a> mounts for a <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a>.</p>
-<h3 id="create-component-container-mount-command">Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+<h3 id="create-component-container-mount-command"><a name="create-component-container-mount-command" class="plugin-anchor" href="#create-component-container-mount-command"><span class="fa fa-link"></span></a>Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> command:</h3>
-<h4 id="supergiant-create-component-mount-flags"><code>supergiant create component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<h4 id="supergiant-create-component-mount-flags"><a name="supergiant-create-component-mount-flags" class="plugin-anchor" href="#supergiant-create-component-mount-flags"><span class="fa fa-link"></span></a><code>supergiant create component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
 <p>Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> will add a new <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> to your <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
@@ -592,10 +600,10 @@ environment variables. A Component requires at least one Container to run.">cont
 <p><code>--volume <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
 traditional disk drive. It is where data is stored.">Volume</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
 traditional disk drive. It is where data is stored.">volume</a> to be used with this <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> point.</p>
-<h3 id="update-component-container-mount">Update <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+<h3 id="update-component-container-mount"><a name="update-component-container-mount" class="plugin-anchor" href="#update-component-container-mount"><span class="fa fa-link"></span></a>Update <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a>:</h3>
-<h4 id="supergiant-update-component-mount-flags"><code>supergiant update component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<h4 id="supergiant-update-component-mount-flags"><a name="supergiant-update-component-mount-flags" class="plugin-anchor" href="#supergiant-update-component-mount-flags"><span class="fa fa-link"></span></a><code>supergiant update component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
 <p>Update <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> updates an existing <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
@@ -620,10 +628,10 @@ environment variables. A Component requires at least one Container to run.">cont
 <p><code>--volume <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
 traditional disk drive. It is where data is stored.">Volume</a></span> <span class="token attr-name">Name</span><span class="token punctuation">&gt;</span></span></code> - The name of the <a href="../../../../GLOSSARY.html#volume" class="glossary-term" title="A volume is persistent storage, like a solid state drive, IOPS drive, or
 traditional disk drive. It is where data is stored.">volume</a> to be used with this <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> point.</p>
-<h3 id="delete-component-container-mount">Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+<h3 id="delete-component-container-mount"><a name="delete-component-container-mount" class="plugin-anchor" href="#delete-component-container-mount"><span class="fa fa-link"></span></a>Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a>:</h3>
-<h4 id="supergiant-delete-component-mount-flags"><code>supergiant delete component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<h4 id="supergiant-delete-component-mount-flags"><a name="supergiant-delete-component-mount-flags" class="plugin-anchor" href="#supergiant-delete-component-mount-flags"><span class="fa fa-link"></span></a><code>supergiant delete component mount <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
 <p>Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> will delete a <a href="../../../../GLOSSARY.html#mount" class="glossary-term" title="A mount is the point that a volume is attached to a Container.">mount</a> point in a <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
@@ -672,6 +680,14 @@ environment variables. A Component requires at least one Container to run.">cont
     
 
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
     <script src="../../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
     
 
@@ -689,7 +705,7 @@ environment variables. A Component requires at least one Container to run.">cont
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"prism":{},"styles-sass":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"disqus":{"shortName":"supergiant","useIdentifier":false},"prism":{},"styles-sass":{},"anchors":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>
