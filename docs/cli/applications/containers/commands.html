@@ -25,6 +25,14 @@
         
     
         
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
         <link rel="stylesheet" href="../../../../gitbook/plugins/gitbook-plugin-search/search.css">
         
     
@@ -33,7 +41,7 @@
         
     
     
-        <link rel="stylesheet" href="../../../../website-1463170365231.css">
+        <link rel="stylesheet" href="../../../../website-1463183186079.css">
     
 
         
@@ -55,7 +63,7 @@
         data-chapter-title="Container Commands"
         data-filepath="docs/cli/applications/containers/commands.md"
         data-basepath="../../../.."
-        data-revision="Fri May 13 2016 14:12:45 GMT-0600 (MDT)"
+        data-revision="Fri May 13 2016 17:46:26 GMT-0600 (MDT)"
         data-innerlanguage="">
     
 
@@ -500,13 +508,13 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="supergiant-component-container-command-control"><a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+                        <h1 id="supergiant-component-container-command-control"><a name="supergiant-component-container-command-control" class="plugin-anchor" href="#supergiant-component-container-command-control"><span class="fa fa-link"></span></a><a href="../../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
 faster and reduce hardware expenses.">Supergiant</a> <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">Component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">Container</a> Command Control</h1>
-<h2 id="supergiant-verb-component-command"><code>supergiant <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>verb</span><span class="token punctuation">&gt;</span></span> component command</code></h2>
+<h2 id="supergiant-verb-component-command"><a name="supergiant-verb-component-command" class="plugin-anchor" href="#supergiant-verb-component-command"><span class="fa fa-link"></span></a><code>supergiant <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>verb</span><span class="token punctuation">&gt;</span></span> component command</code></h2>
 <table>
 <thead>
 <tr>
@@ -565,10 +573,10 @@ Application can be made up of many Components.">Component</a> on their <a href="
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
 faster and reduce hardware expenses.">Supergiant</a> cluster.</p>
-<h3 id="create-component-container-command">Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+<h3 id="create-component-container-command"><a name="create-component-container-command" class="plugin-anchor" href="#create-component-container-command"><span class="fa fa-link"></span></a>Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> command:</h3>
-<h4 id="supergiant-create-component-command-flags"><code>supergiant create component command <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<h4 id="supergiant-create-component-command-flags"><a name="supergiant-create-component-command-flags" class="plugin-anchor" href="#supergiant-create-component-command-flags"><span class="fa fa-link"></span></a><code>supergiant create component command <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
 <p>Create <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> command will add a new command string to a <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
@@ -600,10 +608,10 @@ faster and reduce hardware expenses.">supergiant</a> command would look like thi
 <code>supergiant create component command --app <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>your</span> <span class="token attr-name">app</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span> --comp <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>your</span> <span class="token attr-name"><a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a></span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span> --name <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>your</span> <span class="token attr-name"><a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a></span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span> --cmd &quot;/my-app&quot; --cmd &quot;--foo&quot; --cmd &quot;bar&quot; --cmd &quot;--nuts&quot; --cmd &quot;bolts&quot;</code></p>
-<h3 id="delete-component-container-commands">Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
+<h3 id="delete-component-container-commands"><a name="delete-component-container-commands" class="plugin-anchor" href="#delete-component-container-commands"><span class="fa fa-link"></span></a>Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> commands:</h3>
-<h4 id="supergiant-delete-component-command-flags"><code>supergiant delete component command <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<h4 id="supergiant-delete-component-command-flags"><a name="supergiant-delete-component-command-flags" class="plugin-anchor" href="#supergiant-delete-component-command-flags"><span class="fa fa-link"></span></a><code>supergiant delete component command <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
 <p>Delete <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.">component</a> <a href="../../../../GLOSSARY.html#container" class="glossary-term" title="A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.">container</a> commands will delete a command in a <a href="../../../../GLOSSARY.html#component" class="glossary-term" title="A Component runs a singular function, such as a database or search appliance. An
@@ -661,6 +669,14 @@ environment variables. A Component requires at least one Container to run.">cont
     
 
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../../../../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
     <script src="../../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
     
 
@@ -678,7 +694,7 @@ environment variables. A Component requires at least one Container to run.">cont
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"prism":{},"styles-sass":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"disqus":{"shortName":"supergiant","useIdentifier":false},"prism":{},"styles-sass":{},"anchors":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>

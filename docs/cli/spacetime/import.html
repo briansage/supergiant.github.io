@@ -25,6 +25,14 @@
         
     
         
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
         <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-search/search.css">
         
     
@@ -33,7 +41,7 @@
         
     
     
-        <link rel="stylesheet" href="../../../website-1463170365231.css">
+        <link rel="stylesheet" href="../../../website-1463183186079.css">
     
 
         
@@ -55,7 +63,7 @@
         data-chapter-title="Import"
         data-filepath="docs/cli/spacetime/import.md"
         data-basepath="../../.."
-        data-revision="Fri May 13 2016 14:12:45 GMT-0600 (MDT)"
+        data-revision="Fri May 13 2016 17:46:26 GMT-0600 (MDT)"
         data-innerlanguage="">
     
 
@@ -500,13 +508,13 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="supergiant-spacetime-import-control"><a href="../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
+                        <h1 id="supergiant-spacetime-import-control"><a name="supergiant-spacetime-import-control" class="plugin-anchor" href="#supergiant-spacetime-import-control"><span class="fa fa-link"></span></a><a href="../../../GLOSSARY.html#supergiant" class="glossary-term" title="The first datacenter total control system that makes it easy to manage stateful,
 distributed apps. With Supergiant, you can run dockerized apps and manage
 hardware like one giant, efficient computer. Supergiant makes it easy to deploy
 faster and reduce hardware expenses.">Supergiant</a> <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">Spacetime</a> Import Control</h1>
-<h2 id="supergiant-create-spacetime-import-flags"><code>supergiant create spacetime import <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h2>
+<h2 id="supergiant-create-spacetime-import-flags"><a name="supergiant-create-spacetime-import-flags" class="plugin-anchor" href="#supergiant-create-spacetime-import-flags"><span class="fa fa-link"></span></a><code>supergiant create spacetime import <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h2>
 <table>
 <thead>
 <tr>
@@ -534,10 +542,10 @@ faster and reduce hardware expenses.">Supergiant</a> <a href="../../../GLOSSARY.
 application on your Kubernetes cluster.">core</a>, and manipulate your <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">spacetime</a> instance using the CLI.</p>
-<h3 id="import-spacetime">Import <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
+<h3 id="import-spacetime"><a name="import-spacetime" class="plugin-anchor" href="#import-spacetime"><span class="fa fa-link"></span></a>Import <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">spacetime</a>:</h3>
-<h4 id="supergiant-create-spacetime-importflags"><code>supergiant create spacetime import<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
+<h4 id="supergiant-create-spacetime-importflags"><a name="supergiant-create-spacetime-importflags" class="plugin-anchor" href="#supergiant-create-spacetime-importflags"><span class="fa fa-link"></span></a><code>supergiant create spacetime import<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>flags</span><span class="token punctuation">&gt;</span></span></code></h4>
 <p>Help: <code>supergiant create spacetime import --help</code></p>
 <p>Flags:</p>
 <p><em>required:</em></p>
@@ -558,7 +566,7 @@ to use while performing supergiant actions. Spacetime maintains a separate
 provider database in your spacetime config, because often a user may have or
 want Kubernetes clusters to reside in multiple Regions, Zones, Accounts, or
 Clouds using unique credentials.">provider</a> name you would like to use with your <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster.</p>
-<h3 id="import-spacetime-delete">Import <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
+<h3 id="import-spacetime-delete"><a name="import-spacetime-delete" class="plugin-anchor" href="#import-spacetime-delete"><span class="fa fa-link"></span></a>Import <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
 run. The spacetime controller on it&apos;s own is a useful way to manage multiple
 Kubernetes clusters across multiple environments.">spacetime</a> (Delete):</h3>
 <p>You can delete a imported <a href="../../../GLOSSARY.html#kubernetes" class="glossary-term" title="From kubernetes.io: &quot;Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.&quot;">Kubernetes</a> cluster with <code>supergiant delete spacetime</code> Your imported cluster will simply get removed from the local <a href="../../../GLOSSARY.html#spacetime" class="glossary-term" title="Spacetime actions control Kubernetes clusters on which your supergiant core will
@@ -592,6 +600,14 @@ Kubernetes clusters across multiple environments.">spacetime</a>.</p>
     
 
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
     <script src="../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
     
 
@@ -609,7 +625,7 @@ Kubernetes clusters across multiple environments.">spacetime</a>.</p>
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"prism":{},"styles-sass":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"github":{"url":"https://github.com/supergiant/supergiant.github.io"},"disqus":{"shortName":"supergiant","useIdentifier":false},"prism":{},"styles-sass":{},"anchors":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>
