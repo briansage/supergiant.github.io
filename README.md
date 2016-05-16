@@ -58,3 +58,11 @@ More detail on these steps, the conduct we expect, and what you can expect from 
 Everyone involved, on any level, is considered a contributor to the project. Thank you!
 
 If you have at any point added or submitted documentation to this repo, we'll add your name to the [Authors list][AUTHORS].
+
+
+---
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-40292794-2/supergiant-documentation/readme)](https://github.com/igrigorik/ga-beacon) What's this?
+
+This is a Google Analytics beacon that allows us to see how many anonymous users are interested in our repositories. In this documentation, this beacon is only placed in the root `README.md`, which is not rendered when this repo is run as a reference GitBook.
