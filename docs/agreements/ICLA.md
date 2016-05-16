@@ -4,14 +4,14 @@
 # Supergiant Individual Contributor License Agreement
 
 Thank you for your interest in contributing to Supergiant ("We" or "Us").
-This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it and send it to Us by mail or email, following the instructions at http://supergiant.github.io/docs/agreements/index.html. This is a legally binding document, so please read it carefully before agreeing to it. The Agreement may cover more than one software project managed by Us.
+This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it online, following the instructions at https://supergiant.io/license-agreement. This is a legally binding document, so please read it carefully before agreeing to it. The Agreement may cover more than one software project managed by Us.
 
 
 ## 1. Definitions
 
 "You" means the individual who Submits a Contribution to Us.
 
-"Contribution" means any work of authorship that is Submitted by You to Us in which You own or assert ownership of the Copyright. If You do not own the Copyright in the entire work of authorship, please follow the instructions in http://supergiant.github.io/docs/agreements/index.html.
+"Contribution" means any work of authorship that is Submitted by You to Us in which You own or assert ownership of the Copyright. If You do not own the Copyright in the entire work of authorship, please follow the instructions at https://supergiant.io/license-agreement.
 
 "Copyright" means all rights protecting works of authorship owned or controlled by You, including copyright, moral and neighboring rights, as appropriate, for the full term of their existence including any extensions by You.
 
@@ -63,7 +63,7 @@ You confirm that:
 
 &#40;c) The grant of rights under Section 2 does not violate any grant of rights which You have made to third parties, including Your employer. If You are an employee, You have had Your employer approve this Agreement or sign the Entity version of this document. If You are less than eighteen years old, please have Your parents or guardian sign the Agreement.
 
-(d) You have followed the instructions in http://supergiant.github.io/docs/agreements/index.html, if You do not own the Copyright in the entire work of authorship Submitted.
+(d) You have followed the instructions in https://supergiant.io/license-agreement, if You do not own the Copyright in the entire work of authorship Submitted.
 
 
 ## 4. Disclaimer
@@ -80,11 +80,11 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL YOU BE LIABL
 
 **6.1** This Agreement will be governed by and construed in accordance with the laws of the U.S. state of Delaware excluding its conflicts of law provisions. Under certain circumstances, the governing law in this section might be superseded by the United Nations Convention on Contracts for the International Sale of Goods ("UN Convention") and the parties intend to avoid the application of the UN Convention to this Agreement and, thus, exclude the application of the UN Convention in its entirety to this Agreement.
 
-**6.5** This Agreement sets out the entire agreement between You and Us for Your Contributions to Us and overrides all other agreements or understandings.
+**6.2** This Agreement sets out the entire agreement between You and Us for Your Contributions to Us and overrides all other agreements or understandings.
 
-**6.5** If You or We assign the rights or obligations received through this Agreement to a third party, as a condition of the assignment, that third party must agree in writing to abide by all the rights and obligations in the Agreement.
+**6.3** If You or We assign the rights or obligations received through this Agreement to a third party, as a condition of the assignment, that third party must agree in writing to abide by all the rights and obligations in the Agreement.
 
-**6.5** The failure of either party to require performance by the other party of any provision of this Agreement in one situation shall not affect the right of a party to require such performance at any time in the future. A waiver of performance under a provision in one situation shall not be considered a waiver of the performance of the provision in the future or a waiver of the provision in its entirety.
+**6.4** The failure of either party to require performance by the other party of any provision of this Agreement in one situation shall not affect the right of a party to require such performance at any time in the future. A waiver of performance under a provision in one situation shall not be considered a waiver of the performance of the provision in the future or a waiver of the provision in its entirety.
 
 **6.5** If any provision of this Agreement is found void and unenforceable, such provision will be replaced to the extent possible with a provision that comes closest to the meaning of the original provision and which is enforceable. The terms and conditions set forth in this Agreement shall apply notwithstanding any failure of essential purpose of this Agreement or any limited remedy to the maximum extent possible under law.
 
@@ -92,34 +92,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL YOU BE LIABL
 ---
 
 
-## You:
-
-Name: ________________________________________________________________
-
-Title: _______________________________________________________________
-
-Email: _______________________________________________________________
-
-Street Address: ______________________________________________________
-
-CIty/State/ZIP: ______________________________________________________
-
-Github ID: ___________________________________________________________
-
-
-## Us:
-
-Qbox, Inc.
-
-320 N Rollston Dr, Ste 102
-
-Fayetteville, AR 72701-0824
-
-supergiant-maintainers@qbox.io
-
-Signed: ______________________________________________________________
-
-Title: _______________________________________________________________
+This is a reference document. Instructions for signing the Supergiant Individual Contributor License Agreement may be found at https://supergiant.io/license-agreement.
 
 
 ---

@@ -1,33 +1,26 @@
-[ICLA]: ./ICLA.md
-[ECLA]: ./ECLA.md
+[ICLA]: ./ICLA.md "Individual Contributor License Agreement"
+[ECLA]: ./ECLA.md "Entity Contributor License Agreement"
+[License Agreement Page]: https://supergiant.io/license-agreement
+
 
 # Agreements
 
 
-## Contributor Agreements
+## Contributor License Agreements
 
-* Complete the [Supergiant Individual Contributor License Agreement][ECLA] if you are an individual who owns your own time, equipment, and work, and you wish to contribute time and effort to a Supergiant project
-* Complete the [Supergiant Entity Contributor License Agreement][ECLA] if you represent a legal entity, such as a corporation, partnership, or non-profit that wants to contribute time and effor to a Supergiant project
+We, the Supergiant team, believe strongly that we can learn more from each other by collaborating and sharing our best ideas. We invite you to share your best ideas along with us.
 
-**Once you have completed the form, you're not done yet! it must be accepted by our team.** Send the form to us via one of the methods below:
+Before we can accept work into a Supergiant project, we need to make sure it's ready for Supergiant's open-source license. The Contributor License Agreement form we ask all our contributors to sign is the same agreement in place for many open-source projects. It protects the project from any form of greedy control, and it ensures contributions will continue to remain open-source forever.
 
-
-#### Email
-
-Scan the form, attach it to an email, and send it to supergiant-maintainers@qbox.io.
+#### Visit our [e-signature contributor license agreement page][License Agreement Page] to get started.
 
 
-#### Mail
-
-Mail the signed form to our office address
-
-Qbox, Inc.
-
-320 N Rollston Dr, Ste 102
-
-Fayetteville, AR 72701-0824
+-----------------------------------------------------------------------
 
 
-## What to Expect
+#### Example reference agreements
 
-We will review your submission, and contact you regarding your approval status.
+You may view reference text of our license agreements here:
+
+* [Individual Contributor License Agreement example][ICLA]
+* [Entity Contributor License Agreement example][ECLA]

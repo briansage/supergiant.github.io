@@ -1,15 +1,18 @@
+[About Harmony]: http://harmonyagreements.org/about.html
+
+
 # Supergiant Entity Contributor License Agreement
 
 Thank you for your interest in contributing to Supergiant ("We" or "Us").
 
-This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it and send it to Us by mail or email, following the instructions at http://supergiant.github.io/docs/agreements/index.html. This is a legally binding document, so please read it carefully before agreeing to it. The Agreement may cover more than one software project managed by Us.
+This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it online, following the instructions at https://supergiant.io/license-agreement. This is a legally binding document, so please read it carefully before agreeing to it. The Agreement may cover more than one software project managed by Us.
 
 
 ## 1. Definitions
 
 "You" means any Legal Entity on behalf of whom a Contribution has been received by Us. "Legal Entity" means an entity which is not a natural person. "Affiliates" means other Legal Entities that control, are controlled by, or under common control with that Legal Entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such Legal Entity, whether by contract or otherwise, (ii) ownership of fifty percent (50%) or more of the outstanding shares or securities which vote to elect the management or other persons who direct such Legal Entity or (iii) beneficial ownership of such entity.
 
-"Contribution" means any work of authorship that is Submitted by You to Us in which You own or assert ownership of the Copyright. If You do not own the Copyright in the entire work of authorship, please follow the instructions in http://supergiant.github.io/docs/agreements/index.html.
+"Contribution" means any work of authorship that is Submitted by You to Us in which You own or assert ownership of the Copyright. If You do not own the Copyright in the entire work of authorship, please follow the instructions in https://supergiant.io/license-agreement.
 
 "Copyright" means all rights protecting works of authorship owned or controlled by You or Your Affiliates, including copyright, moral and neighboring rights, as appropriate, for the full term of their existence including any extensions by You.
 
@@ -61,7 +64,7 @@ You confirm that:
 
 &#40;c) The grant of rights under Section 2 does not violate any grant of rights which You or Your Affiliates have made to third parties.
 
-(d) You have followed the instructions in http://supergiant.github.io/docs/agreements/index.html, if You do not own the Copyright in the entire work of authorship Submitted.
+(d) You have followed the instructions in https://supergiant.io/license-agreement, if You do not own the Copyright in the entire work of authorship Submitted.
 
 
 ## 4. Disclaimer
@@ -87,40 +90,13 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL YOU BE LIABL
 **6.5** If any provision of this Agreement is found void and unenforceable, such provision will be replaced to the extent possible with a provision that comes closest to the meaning of the original provision and which is enforceable. The terms and conditions set forth in this Agreement shall apply notwithstanding any failure of essential purpose of this Agreement or any limited remedy to the maximum extent possible under law.
 
 
----
+-----------------------------------------------------------------------
 
 
-## You:
-
-Name: ________________________________________________________________
-
-Title: _______________________________________________________________
-
-Email: _______________________________________________________________
-
-Street Address: ______________________________________________________
-
-CIty/State/ZIP: ______________________________________________________
-
-Github ID: ___________________________________________________________
+This is a reference document. Instructions for signing the Supergiant Individual Contributor License Agreement may be found at https://supergiant.io/license-agreement.
 
 
-## Us:
-
-Qbox, Inc.
-
-320 N Rollston Dr, Ste 102
-
-Fayetteville, AR 72701-0824
-
-supergiant-maintainers@qbox.io
-
-Signed: ______________________________________________________________
-
-Title: _______________________________________________________________
-
-
----
+-----------------------------------------------------------------------
 
 
 Adapted from [Harmony][About Harmony] (HA-CLA-E) Version 1.0
