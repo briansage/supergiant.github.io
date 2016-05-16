@@ -1,7 +1,6 @@
 [COC]: ./code-of-conduct.md "Supergiant Community Code of Conduct"
 [GitHub Issues]: ./github-issues-guidelines.md "GitHub Issues Guidelines"
-[ICLA]: https://supergiant.io/licenses/icla/ "Individual Contributor License Agreement"
-[CCLA]: https://supergiant.io/licenses/ccla/ "Corporate Contributor License Agreement"
+[Agreements Docs]: ../agreements/README.md
 [Documentation]: https://supergiant.github.io/ "Supergiant Documentation"
 
 
@@ -36,10 +35,7 @@ Bugs or annoyances are reported via GitHub Issues. Please follow the steps for h
 
 #### How to become a code contributor
 
-Before we can accept work into a Supergiant project, we need to make sure it's ready for Supergiant's open-source license.
-
-* Complete our [Individual Contributor License Agreement][ICLA], if you want to write code on behalf of yourself on your own time and equipment
-* Complete our [Corporate Contributor License Agreement][CCLA], if you represent a company that wants you to contribute work
+Thank you for wanting to contribute to Supergiant. See [Agreements][Agreements Docs] for instructions to become a code contributor.
 
 #### How to Submit a Code Change
 
