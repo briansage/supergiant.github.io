@@ -17,9 +17,10 @@ The team of people who write code, write prose, write documentation, and use our
 
 ## Find us where we participate:
 
-* [Github](https://github.com/supergiant)
-* [Twitter](https://twitter.com/supergiantio)
-* [Facebook](https://www.facebook.com/supergiantio)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/supergiant)
-* [Reddit](https://www.reddit.com/r/supergiant)
-* [LinkedIn](https://www.linkedin.com/company/supergiant.io)
+* [Github](https://supergiant.io/github)
+* [Slack](https://supergiant.io/slack)
+* [Twitter](https://supergiant.io/twitter)
+* [Facebook](https://supergiant.io/facebook)
+* [Stack Overflow](https://supergiant.io/stackoverflow)
+* [Reddit](https://supergiant.io/reddit)
+* [LinkedIn](https://supergiant.io/linkedin)
