@@ -1,9 +1,9 @@
-[SG Issues]: (https://github.com/supergiant/supergiant/issues) "Supergiant Issues on GitHub"
-[SG CLI Issues]: (https://github.com/supergiant/supergiant-cli/issues) "Supergiant Command Line Interface Issues on GitHub"
-[SG UI Issues]: (https://github.com/supergiant/supergiant-dashboard/issues) "Supergiant Dashboard Issues on GitHub"
-[SG Installer Issues]: (https://github.com/supergiant/supergiant-installer/issues) "Supergiant Installer Issues on GitHub"
-[SG Docs Issues]: (https://github.com/supergiant/supergiant.github.io/issues) "Supergiant Documentation Issues on GitHub"
-[GitHub Issue Example]: (https://github.com/supergiant/supergiant-dashboard/issues/94) "When a release is created users should remain on the Releases view"
+[SG Issues]: https://github.com/supergiant/supergiant/issues "Supergiant Issues on GitHub"
+[SG CLI Issues]: https://github.com/supergiant/supergiant-cli/issues "Supergiant Command Line Interface Issues on GitHub"
+[SG UI Issues]: https://github.com/supergiant/supergiant-dashboard/issues "Supergiant Dashboard Issues on GitHub"
+[SG Installer Issues]: https://github.com/supergiant/supergiant-installer/issues "Supergiant Installer Issues on GitHub"
+[SG Docs Issues]: https://github.com/supergiant/supergiant.github.io/issues "Supergiant Documentation Issues on GitHub"
+[GitHub Issue Example]: https://github.com/supergiant/supergiant-dashboard/issues/94 "When a release is created users should remain on the Releases view"
 
 
 # GitHub Issues Guidelines
