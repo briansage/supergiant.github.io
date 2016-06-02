@@ -7,7 +7,6 @@
   * [GitHub Issues Guidelines](/docs/community/github-issues-guidelines.md)
 * [Start Here](/docs/start/README.md)
   * [Installation](/docs/start/installation.md)
-  * [Getting Started](/docs/start/getting-started.md)
 * [Supergiant CLI Reference](/docs/cli/README.md)
   * [Spacetime](/docs/cli/spacetime/README.md)
     * [Providers](/docs/cli/spacetime/providers.md)
