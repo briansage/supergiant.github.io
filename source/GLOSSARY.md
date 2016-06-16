@@ -1,3 +1,5 @@
+[supergiant.io]: https://supergiant.io/ "Supergiant - Scaling Open-Source Container Orchestration"
+
 # Glossary
 
 ## Application
@@ -14,15 +16,16 @@ A Component runs a singular function, such as a database or search appliance. An
 Application can be made up of many Components.
 
 
-## Container Instances
-
-...
-
-
 ## Container
 
 A Container holds a Docker image with RAM and CPU allocations, ports, and
 environment variables. A Component requires at least one Container to run.
+
+
+## Container Instances
+
+A running Container. A Component may be configured to run multiple Container
+Instances for application resiliency.
 
 
 ## Core
@@ -33,7 +36,7 @@ application on your Kubernetes cluster.
 
 ## Dashboard
 
-...
+The Supergiant GUI, accessible through a web browser.
 
 
 ## Deployments
@@ -43,7 +46,12 @@ application on your Kubernetes cluster.
 
 ## Docker
 
-...
+Docker containers allow software to be containerized into complete, runnable
+filesystems, containing code, system tools, and linked libraries.
+
+By making a Docker container, a lightweight app may be run anywhere, regardless
+of the host system.
+
 
 ## Environment Variables
 
@@ -72,7 +80,10 @@ Clouds using unique credentials.
 
 ## Packing Algorithm
 
-...
+The Packing Algorithm provisions the right resources when needed, lowering cost
+and increasing hardware utilization, and ensuring you never have to worry about
+managing servers directly.
+
 
 ## Port
 
@@ -94,15 +105,20 @@ Kubernetes clusters across multiple environments.
 
 ## Supergiant
 
-The first datacenter total control system that makes it easy to manage stateful,
-distributed apps. With Supergiant, you can run dockerized apps and manage
-hardware like one giant, efficient computer. Supergiant makes it easy to deploy
-faster and reduce hardware expenses.
+[Supergiant][supergiant.io] is an open-source container orchestration system,
+based on Kubernetes. It is built and maintained by the Qbox.io team to make it
+easy to deploy stateful, distributed apps at scale.
+
+Run dockerized apps and manage datacenter or cloud provisioned hardware like one
+giant, self-healing computer. Supergiant's packing algorithm makes it easy to
+reduce hardware expenses and gain performance.
 
 
 ## Supergiant API
 
-...
+The core of a Supergiant instance. The API exposes control of the general
+provisioning of services and allocation of resources.
+
 
 
 ## Volume
