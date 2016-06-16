@@ -1,3 +1,4 @@
+[supergiant.io]: https://supergiant.io/ "Supergiant - Scaling Open-Source Container Orchestration"
 [Contrib Guide]: ./docs/community/contribution-guidelines.md "Supergiant Community Contribution Guidelines"
 [Community]: ./docs/community/ "The Supergiant Community"
 [Start Here]: ./docs/start/ "Supergiant: Start Here"
@@ -16,7 +17,7 @@
 [Troubleshooting]: ./troubleshooting.md
 [Glossary]: ./GLOSSARY.md
 
-Supergiant
+[Supergiant][supergiant.io]
 =======================================================================
 
 **The first datacenter total control system that makes it easy to manage stateful, distributed apps.**

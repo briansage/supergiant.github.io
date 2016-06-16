@@ -1,8 +1,9 @@
+[supergiant.io]: https://supergiant.io/ "Supergiant - Scaling Open-Source Container Orchestration"
 [Contrib Guide]: ./source/docs/community/contribution-guidelines.md "Supergiant Community Contribution Guidelines"
 [AUTHORS]: /AUTHORS "List of Documentation Authors"
 [GitHub Using Pull Requests]: https://help.github.com/articles/using-pull-requests/ "GitHub Help: Using pull requests"
 
-Supergiant Documentation
+(Supergiant)[supergiant.io] Documentation
 =======================================================================
 
 This is a central repository for all Supergiant-related documentation. This README you are reading now is about the Documentation repo, itself.
