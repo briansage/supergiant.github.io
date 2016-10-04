@@ -16,6 +16,8 @@
 [FAQ]: ./FAQ.md
 [Troubleshooting]: ./troubleshooting.md
 [Glossary]: ./GLOSSARY.md
+[Supergiant Github URL]: https://github.com/supergiant/supergiant
+
 
 [Supergiant][supergiant.io]
 =======================================================================
@@ -25,26 +27,16 @@
 
 Run dockerized apps and manage hardware like one giant, efficient computer. Supergiant makes it easy to deploy faster and reduce hardware expenses.
 
-<iframe
-  src="https://www.youtube.com/embed/YORNBfoC3-I"
-  allowfullscreen
-  frameborder="0"
-  width="100%"
-  height="320"
-  >
+---
+## Deprication Warning!
 
-  **Watch the Supergiant Introduction video to learn more.**
+The Supergiant project (server, dashboard, API) has merged into one central
+repository. This documentation supports the first release of Supergiant and is
+planned for deprication.
 
-  https://www.youtube.com/watch?v=YORNBfoC3-I
+**Please follow [Supergiant on Github][Supergiant Github URL] for updates.**
 
-</iframe>
-
-
-About This Documentation
------------------------------------------------------------------------
-
-This documentation is a central repository for Supergiant repositories, features, tips, and best practices.
-
+---
 
 Documentation Table of Contents
 -----------------------------------------------------------------------
@@ -70,8 +62,8 @@ All Supergiant open-source repos are hosted on GitHub. These are:
 * [This Documentation (supergiant.github.io)][Supergiant Documentation Repo]
 * [Supergiant Core][Supergiant Core Repo]
 * [Supergiant Command Line Interface][Supergiant CLI Repo]
-* [Supergiant Dashboard][Supergiant Dashboard Repo]
-* [Supergiant Installer][Supergiant Installer Repo]
+* ~~[Supergiant Dashboard][Supergiant Dashboard Repo]~~ (Depricated)
+* ~~[Supergiant Installer][Supergiant Installer Repo]~~ (Depricated)
 * [Guber][Guber Repo]
 
 
