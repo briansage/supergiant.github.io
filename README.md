@@ -2,11 +2,23 @@
 [Contrib Guide]: ./source/docs/community/contribution-guidelines.md "Supergiant Community Contribution Guidelines"
 [AUTHORS]: /AUTHORS "List of Documentation Authors"
 [GitHub Using Pull Requests]: https://help.github.com/articles/using-pull-requests/ "GitHub Help: Using pull requests"
+[Supergiant Github URL]: https://github.com/supergiant/supergiant
 
 (Supergiant)[supergiant.io] Documentation
 =======================================================================
 
 This is a central repository for all Supergiant-related documentation. This README you are reading now is about the Documentation repo, itself.
+
+---
+## Deprication Warning!
+
+The Supergiant project (server, dashboard, API) has merged into one central
+repository. This documentation supports the first release of Supergiant and is
+planned for deprication.
+
+**Please follow [Supergiant on Github][Supergiant Github URL] for updates.**
+
+---
 
 To browse this documentation, see http://supergiant.github.io/, or browse this repo starting at [./source/README.md](./source/README.md)
 
